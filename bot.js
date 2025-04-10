@@ -23,13 +23,13 @@ function createBot () {
       if (username === bot.username) return
       switch (message) {
         case ';start':
-          bot.chat('24 ATERNOS > Bot started! - Made By Fortcote')
+          bot.chat('24 ATERNOS > Bot started!')
           bot.setControlState('forward', true)
           bot.setControlState('jump', true)
           bot.setControlState('sprint', true)
           break
           case ';stop':
-            bot.chat('24 ATERNOS > Bot stoped! - Made By Fortcote')
+            bot.chat('24 ATERNOS > Bot stoped!')
             bot.clearControlStates()
             break
           }
